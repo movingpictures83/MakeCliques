@@ -10,14 +10,8 @@ class MakeCliquesPlugin:
       self.cliquesizes = []
       for line in myfile:
          self.cliquesizes.append(int(line))
- 
-#numcliques = len(sys.argv) - 2
-#cliquesizes = []
-#for i in range(2, 2+numcliques):
-#   cliquesizes.append(int(sys.argv[i]))
 
    def run(self):
-      print "SETTING"
       self.n = sum(self.cliquesizes)
 
       self.ADJ = numpy.zeros([self.n,self.n])
