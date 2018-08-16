@@ -3,6 +3,7 @@
 import sys
 import numpy
 import random
+random.seed(1234)   # ONLY FOR TEST PURPOSES, COMMENT OUT FOR BETTER RANDOMNESS
 
 class MakeCliquesPlugin:
    def input(self, filename):
