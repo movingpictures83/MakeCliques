@@ -1,0 +1,2 @@
+Prefix plugins/MakeCliques/example/
+Plugin MakeCliques inputfile cliques.txt outputfile cliques.gml
